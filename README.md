@@ -4,25 +4,19 @@ This challenge allows us to verify your knowledge of react using a semi realworl
 
 ## Instructions
 
-**Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
+**Read these instructions carefully. Understand exactly what is expected _before_ starting this Challenge.**
 
-You are not allowed to collaborate during the Challenge. However, you are encouraged to seek support from your lead developer if you need direction.
+You are not allowed to collaborate during the Challenge. However, you are encouraged to seek support from your lead developer if you need more direction.
 
-You have three hours to complete this challenge. Plan your time accordingly.
+You have three hours to complete this challenge. Plan your time accordingly. Time starts from the point of your `init` commit.
 
 ## Commits
 
-Commit your code regularly and meaningfully. This helps both you --in case you ever need to return to old code for any number of reasons-- and your Team Lead.
+Commit your code regularly and meaningfully. This helps both you --in case you ever need to return to old code for any number of reasons.
 
 ## Description
 
 In this challenge, create a web page that presents a styled list of **characters obtained from an API**. Being able to render out data to a web page is a large part of what JavaScript developers do, this challenge assesses your ability to achieve such task.
-
-Here are some example solutions below:
-
-[Example of MVP](https://tk-assets.lambdaschool.com/b011a132-0916-4ed2-8955-14192de03a75_sample-screenshot.png)
-
-[Example with Stretch Goals](https://tk-assets.lambdaschool.com/3b82c793-2352-4d4d-a81d-e55bf350f7bd_sample-screenshot2.png)
 
 ## Self-Study/Essay Questions
 
