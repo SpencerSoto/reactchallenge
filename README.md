@@ -1,4 +1,4 @@
-# Sprint Challenge: React - Star Wars
+# React Challenge: Working with API calls and styling components
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored ReactJS, Function Components, component state, side effects and styling techniques. In your challenge for this Sprint, you will demonstrate proficiency by creating an application that uses ReactJS to consume live data retrieved from the World Wide Web and style that data nicely on the page using packages such as styled-components or CSS Modules
 
