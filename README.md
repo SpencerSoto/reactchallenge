@@ -1,6 +1,6 @@
 # React Challenge: Working with API calls and styling components
 
-This challenge allows us to verify your knowledge of react using a semi realworld application. Here we will dive into ReactJS, Function Components, component state, side effects and styling techniques. You will demonstrate proficiency by creating an application that uses ReactJS to consume live data retrieved from the World Wide Web and style that data nicely on the page using packages such as styled-components or CSS Modules. You also have the option to use a third-party library for fetching or sticking with the native fatch API
+This challenge allows us to verify your knowledge of react using a semi realworld application. Here we will dive into ReactJS, Function Components, component state, side effects and styling techniques. You will demonstrate proficiency by creating an application that uses ReactJS to consume live data retrieved from the World Wide Web and style that data nicely on the page using packages such as styled-components or CSS Modules. You also have the option to use a third-party library for fetching or sticking with the native fetch API
 
 ## Instructions
 
