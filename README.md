@@ -18,7 +18,7 @@ Commit your code regularly and meaningfully. This helps both you --in case you e
 
 In this challenge, create a web page that presents a styled list of **characters obtained from an API**. Being able to render out data to a web page is a large part of what JavaScript developers do, this challenge assesses your ability to achieve such task.
 
-## Self-Study/Essay Questions
+## Starter Questions
 
 Demonstrate your understanding of Reacts concepts by answering four questions. Edit the `Answers.md` file at the root of the project to include your answer after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
@@ -30,7 +30,7 @@ Follow these steps to set up and work on your project:
 - [ ] Add `@AmericasEngineer` as collaborator on Github.
 - [ ] Clone your OWN version of this Repo.
 - [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
-- [ ] Change directories into `./starwars` (`cd starwars`) and run `npm install` or `yarn install` to retrieve dependencies based on what package manager you like better. Personally i love Yarn 😊
+- [ ] Change directories into `./front-end` (`cd front-end`) and run `npm install` or `yarn install` to retrieve dependencies based on what package manager you like better. Personally i love Yarn 😊
 - [ ] Once you have installed the _node_modules_, run `npm start` or `yarn start` to get your server up and running.
 - [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty right now... _yet_, your goal is to ensure this project becomes a thing of beauty!
 Follow these steps for completing your project.
@@ -43,9 +43,9 @@ Your finished project must include all of the following requirements:
 
 - [ ] Use ONE of the following APIs:
   - [Star Wars API on swapi.dev](https://swapi.dev/)
-  - [Fallback Star Wars API](https://swapi.py4e.com/) (in case swapi.dev is down)
+  - [Fallback Star Wars API](https://swapi.py4e.com/)
   - [The Rick and Morty API](https://rickandmortyapi.com/)
-  - [The RESTful Pokémon API](https://pokeapi.co/) **(harder)**
+  - [The RESTful Pokémon API](https://pokeapi.co/)
 - [ ] Use the documentation and Google to learn how to fetch characters from your API.
 - [ ] Obtain a list of characters. One or several requests might be needed, depending on the API.
 - [ ] Set the list of characters into state.
@@ -61,9 +61,7 @@ Your finished project must include all of the following requirements:
 - [ ] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
 - [ ] Consistent quotation usage.
 - [ ] Spell-check.
-- [ ] Schedule time to review, refine and reassess your work.
-
-It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
+- [ ] Schedule time to review and refine your code if needed.
 
 ### Tips and Gotchas
 
