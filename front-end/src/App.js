@@ -6,7 +6,6 @@ const App = () => {
       { id: 1, name: 'Rick Sanchez' , status: 'Alive' , image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg" }
   ]);
 
- 
 
     useEffect(() => {
       fetch('https://rickandmortyapi.com/api/character')
@@ -24,20 +23,23 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
-      <h2 className="character-list">
+      <h2 className="character">
+        
 
       {characters.map((character)=> (
         <div key={character.id}>
-          {character.name}
+         <p> {character.name}</p>
+         <img src={character.image} alt="profile pic" />
           {/* {character.image} */}
-          {character.status}
-          {character.gender}
+           {character.status}
+           {character.gender}
           
           </div>
       ))}
      </h2> 
        
     </div>
+    
   );
 }
 
