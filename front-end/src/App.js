@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">Characters</h1>
+      <h1 className="Header">Rick and Morty Characters</h1>
       <h2 className="character">
         
 
@@ -32,7 +32,7 @@ const App = () => {
          <img src={character.image} alt="profile pic" />
           {/* {character.image} */}
            {character.status}
-           {character.gender}
+           {/* {character.gender} */}
           
           </div>
       ))}
