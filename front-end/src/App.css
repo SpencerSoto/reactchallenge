@@ -6,3 +6,26 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.character-list {
+  margin: 50px;
+  padding: 0;
+  list-style: square;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-gap: 150px;
+
+  /* li
+    border-radius: 20px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    background: #fff;
+    box-shadow: 0 0 10px hsl(0, 0%, 90%);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700; */
+
+  /* img
+    display: block;
+    max-width: 100%;
+    margin-bottom: 15px; */
+}
