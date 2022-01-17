@@ -1,6 +1,6 @@
 // Write your Character component here
 import React from 'react';
-// import "./componen/Character.css";
+// import "./component/Character.css";
 
 const CharacterCard = (props) => {
     return (
@@ -13,13 +13,13 @@ const CharacterCard = (props) => {
         />
         <h2 className="character__card--name">{props.character.name}</h2>
         <p className="character__card--species">{props.character.species}</p>
-        <Link
+        {/* <Link>
           to={`/character-detail/${props.character.id}`}
           className="character__card--link"
           title="Go to character detail"
         >
           More info
-        </Link>
+        </Link> */}
       </article>
     );
   };
