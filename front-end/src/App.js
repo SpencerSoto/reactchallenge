@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import Character from "./components/Character";
+import Characters from "./components/Character";
 
 const App = () => {
   const [characters, setCharacters] = useState([

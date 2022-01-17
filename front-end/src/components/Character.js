@@ -2,29 +2,24 @@
 import React from 'react';
 // import "./componen/Character.css";
 
-class Character extends React.Component {
-    state = {
-      user: null,
-      error: null,
-      loading: true,
-    };
-    componentDidMount() {
-      fetch('https://rickandmortyapi.com/api/character')
-        .then(response => response.json())
-        .then(data => {
-          const user = data.results[0];
-          this.setState({ user, loading: false });
-        })
-        .catch(error => this.setState({
-          error: error.message,
-          loading: false,
-        }));
-    }
-    render() {
-      return (
-        <section>
-          {this.props.render(this.state)}
-        </section>
-      );
-    }
-  } 
+const CharacterCard = (props) => {
+    return (
+      <article className="character__card">
+        <img
+          src={props.character.image}
+          alt={props.character.name}
+          title={props.character.name}
+          className="character__card--img"
+        />
+        <h2 className="character__card--name">{props.character.name}</h2>
+        <p className="character__card--species">{props.character.species}</p>
+        <Link
+          to={`/character-detail/${props.character.id}`}
+          className="character__card--link"
+          title="Go to character detail"
+        >
+          More info
+        </Link>
+      </article>
+    );
+  };
