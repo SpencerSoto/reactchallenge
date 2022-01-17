@@ -23,3 +23,4 @@ const CharacterCard = (props) => {
       </article>
     );
   };
+  export default CharacterCard;
